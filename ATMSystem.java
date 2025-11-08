@@ -4,7 +4,7 @@ package com.java.Project;
 import java.sql.*;
 import java.util.*;
 
-// Base Class
+
 class Account {
     private int accountNo;
     private String username;
@@ -70,8 +70,6 @@ class ATM extends Account {
         ps.executeUpdate();
     }
 }
-
-// Main Class
 public class ATMSystem {
     static final String URL = "jdbc:postgresql://localhost:5432/College";
     static final String USER = "postgres";
